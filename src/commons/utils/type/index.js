@@ -13,7 +13,7 @@ const KECAMATAN = {
   type: "kecamatan",
 };
 
-const getType = (tipe) => {
+export const getType = (tipe) => {
   switch (tipe) {
     case "provinsi":
       return {
@@ -35,7 +35,7 @@ const getType = (tipe) => {
         parentType: KABUPATEN_KOTA,
         childType: null,
       };
-      
+
     default:
       break;
   }
