@@ -28,6 +28,7 @@ const SearchBox = ({ selectData }) => {
         <input
           className="w-full px-4 py-2 border border-sky-200 rounded focus:outline-0 focus:ring-1"
           type="text"
+          placeholder="Enter nama provinsi, kabupaten/kota, atau kecamatan"
         />
         <p className="absolute right-4 top-1/2 -translate-y-1/2">
           <FontAwesomeIcon icon={faMagnifyingGlass} />
